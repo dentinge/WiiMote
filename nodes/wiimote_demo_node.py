@@ -33,17 +33,17 @@ class Node():
     print data.buttons[6]
     if data.buttons[6] == 1:
         self.State = "you pressed button 2"
-    else if data.buttons[5]: 
+    elif data.buttons[5] == 1: 
         self.State = "you pressed Button {5}" 
-    else if data.buttons[4]: 
+    elif data.buttons[4]== 1: 
         self.State = "you pressed Button {4}" 
-    else if data.buttons[3]: 
+    elif data.buttons[3]== 1: 
         self.State = "you pressed Button {3}" 
-    else if data.buttons[2]: 
+    elif data.buttons[2]== 1:
         self.State = "you pressed Button {2}"
-    else if data.buttons[1]: 
+    elif data.buttons[1]== 1: 
         self.State = "you pressed Button {1}" 
-    else if data.buttons[0]: 
+    elif data.buttons[0]== 1: 
         self.State = "you pressed Button {0}" 
     else:
         self.State = 'Waiting'
