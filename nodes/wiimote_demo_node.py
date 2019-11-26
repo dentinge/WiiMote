@@ -45,14 +45,6 @@ class Node():
         self.State = "you pressed Button {1}" 
     elif data.buttons[0]== 1: 
         self.State = "you pressed Button {0}" 
-    elif data.buttons[7]== 1: 
-        self.State = "you pressed Button {7}" 
-    elif data.buttons[8]== 1: 
-        self.State = "you pressed Button {8}" 
-    elif data.buttons[9]== 1: 
-        self.State = "you pressed Button {9}" 
-    elif data.buttons[10]== 1: 
-        self.State = "you pressed Button {10}" 
     else:
         self.State = 'Waiting'
     
